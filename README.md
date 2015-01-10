@@ -6,10 +6,10 @@ A basic REST API for bar information scraped from BeerAdvocate.
 __/bars/__
 GET - Retrieve a sample set of 10 bars
 
-__/bars/{STATE ABBREVIATION}/__
+__/bars/{STATE}/__
 GET - Retrieve all bars from STATE
 
-__/bars/{STATE ABBREVIATION}/{CITY}/__
+__/bars/{STATE}/{CITY}/__
 GET - Retrieve all bars from CITY, STATE
 
 __/bar/{ID}__
