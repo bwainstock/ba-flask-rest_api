@@ -96,4 +96,4 @@ def bar(bar_id):
         return jsonify(items=d)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
